@@ -1,0 +1,32 @@
+.verification-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  input {
+    margin: 10px 0;
+    padding: 8px;
+    width: 80%;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+    background-color: #ccc;
+  }
+  
+  .verified {
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+  }
+  
